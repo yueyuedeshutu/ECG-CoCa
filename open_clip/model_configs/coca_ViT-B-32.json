@@ -1,0 +1,25 @@
+{
+    "embed_dim": 512,
+    "ecg_cfg": {
+      "seq_length": 5000,
+      "lead_num": 12,
+      "patch_size": 50
+    },
+    "text_cfg": {
+      "hf_model_name": "/gpfsdata/home/liuxinyue/liuxinyue_lustre/ECG-CLIP/model/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "hf_tokenizer_name": "/gpfsdata/home/liuxinyue/liuxinyue_lustre/ECG-CLIP/model/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "hf_proj_type": "linear",
+      "context_length": 256,
+      "width": 768,
+      "output_tokens": true
+    },
+    "multimodal_cfg": {
+      "context_length": 256,
+      "width": 768,
+      "heads": 8,
+      "layers": 12,
+      "use_dcm": false,
+      "dcm_dropout": 0.0
+    },
+    "custom_text": true
+  }

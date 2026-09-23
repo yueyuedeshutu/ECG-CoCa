@@ -1,0 +1,835 @@
+{
+  "NORMAL": [
+    "normal ecg",
+    "normal electrocardiogram",
+    "within normal limits",
+    "normal"
+  ],
+  "SR": [
+    "sinus rhythm",
+    "normal sinus rhythm",
+    "sinus node dysfunction",
+    "sinus bradycardia",
+    "sinus tachycardia"
+  ],
+  "AFIB": [
+    "atrial fibrillation",
+    "paroxysmal atrial fibrillation",
+    "persistent atrial fibrillation",
+    "long-standing persistent atrial fibrillation",
+    "permanent atrial fibrillation",
+    "afib"
+  ],
+  "AFLT": [
+    "atrial flutter",
+    "paroxysmal atrial flutter",
+    "persistent atrial flutter",
+    "long-standing persistent atrial flutter",
+    "permanent atrial flutter",
+    "atrial flutter with variable block",
+    "atrial flutter with 2 1 block",
+    "atrial flutter with 3 1 block",
+    "typical atrial flutter",
+    "atypical atrial flutter",
+    "aflt"
+  ],
+  "SVT": [
+    "supraventricular tachycardia",
+    "supraventricular tachyarrhythmia",
+    "atrial tachycardia",
+    "junctional tachycardia",
+    "atrioventricular nodal reentrant tachycardia avnrt",
+    "atrioventricular reciprocating tachycardia avrt",
+    "wolff-parkinson-white syndrome",
+    "svt"
+  ],
+  "STACH": [
+    "sinus tachycardia",
+    "supraventricular tachycardia",
+    "atrial tachycardia",
+    "junctional tachycardia",
+    "sinus tachycardia with atrial fibrillation",
+    "sinus tachycardia with atrial flutter",
+    "sinus tachycardia with premature ventricular contractions",
+    "stach"
+  ],
+  "VT": [
+    "ventricular tachycardia",
+    "ventricular tachyarrhythmia",
+    "ventricular extrasystole",
+    "ventricular ectopic beat",
+    "ventricular premature complex",
+    "ventricular premature contraction",
+    "ventricular premature beat",
+    "ventricular premature rhythm"
+  ],
+  "SBRAD": [
+    "sinus bradycardia",
+    "sinus bradycardia with atrial fibrillation",
+    "sinus bradycardia with atrial flutter",
+    "sinus bradycardia with premature ventricular contractions",
+    "sbrad"
+  ],
+  "SARRH": [
+    "sinus arrhythmia",
+    "sinus arrhythmias",
+    "sinus rhythm irregularity",
+    "wandering atrial pacemaker",
+    "sarrh"
+  ],
+  "1AVB": [
+    "first degree av block",
+    "first-degree atrioventricular block",
+    "prolonged pr interval",
+    "1avb"
+  ],
+  "2AVB": [
+    "second degree av block",
+    "mobitz",
+    "mobitz type i second degree av block",
+    "mobitz type ii second degree av block",
+    "2avb"
+  ],
+  "2AVB1": [
+    "second degree av block type 1",
+    "mobitz type i second-degree atrioventricular block",
+    "wenckebach phenomenon",
+    "2avb1"
+  ],
+  "2AVB2": [
+    "second degree av block type two",
+    "mobitz type ii second-degree atrioventricular block",
+    "second-degree atrioventricular block type ii",
+    "type ii second-degree heart block",
+    "2avb2"
+  ],
+  "3AVB": [
+    "third degree av block",
+    "complete heart block",
+    "high-grade av block",
+    "third-degree atrioventricular block",
+    "3avb"
+  ],
+  "AVB": [
+    "av block",
+    "atrioventricular block",
+    "a-v block",
+    "second-degree av block",
+    "third-degree av block",
+    "avb"
+  ],
+  "LBBB": [
+    "left bundle branch block",
+    "left bundle branch block lbbb",
+    "left anterior fascicular block",
+    "left posterior fascicular block",
+    "bifascicular block lbbb rbbb",
+    "trifascicular block lbbb rbbb lphb",
+    "lbbb"
+  ],
+  "LBBBB": [
+    "left back bundle branch block",
+    "left posterior fascicular block",
+    "left posterior hemiblock",
+    "left bundle branch block",
+    "complete left bundle branch block",
+    "lbbbb"
+  ],
+  "ILBBB": [
+    "incomplete left bundle branch block",
+    "left anterior fascicular block",
+    "left posterior fascicular block",
+    "bifascicular block",
+    "ilbbb"
+  ],
+  "CLBBB": [
+    "left bundle branch block",
+    "left bundle branch block lbbb",
+    "left anterior fascicular block",
+    "left posterior fascicular block",
+    "bifascicular block",
+    "clbbb"
+  ],
+  "CRBBB": [
+    "right bundle branch block",
+    "right bundle branch block rbbb",
+    "complete right bundle branch block",
+    "incomplete right bundle branch block",
+    "crbbb"
+  ],
+  "IRBBB": [
+    "incomplete right bundle branch block",
+    "incomplete right bundle branch block type i",
+    "incomplete right bundle branch block type ii",
+    "irbbb"
+  ],
+  "RBBB": [
+    "right bundle branch block",
+    "rbbb"
+  ],
+  "LAFB": [
+    "left anterior fascicular block",
+    "left anterior hemiblock",
+    "left bundle branch block lafb",
+    "first-degree lafb",
+    "type i lafb",
+    "lafb"
+  ],
+  "LPFB": [
+    "left posterior fascicular block",
+    "left posterior fascicular block lpfb",
+    "left posterior hemiblock",
+    "left bundle branch block lbbb with left anterior fascicular conduction delay",
+    "lpfb"
+  ],
+  "LAFB/LPFB": [
+    "left anterior fascicular block",
+    "left posterior fascicular block",
+    "left anterior hemiblock",
+    "left posterior hemiblock",
+    "lafb lpfb"
+  ],
+  "IVCD": [
+    "intraventricular conduction",
+    "non-specific intraventricular conduction disturbance",
+    "non-specific intraventricular conduction defect",
+    "non-specific intraventricular block",
+    "ivcd"
+  ],
+  "IDC": [
+    "interior differences conduction",
+    "left bundle branch block",
+    "right bundle branch block",
+    "left anterior fascicular block",
+    "left posterior fascicular block",
+    "idc"
+  ],
+  "IVB": [
+    "intraventricular block",
+    "complete intraventricular block",
+    "high-grade intraventricular block",
+    "low-grade intraventricular block",
+    "left bundle branch block lbbb",
+    "right bundle branch block rbbb",
+    "left anterior fascicular block lafb",
+    "left posterior fascicular block lpfb",
+    "right anterior fascicular block rafb",
+    "right posterior fascicular block rpfb",
+    "ivb"
+  ],
+  "LVH": [
+    "left ventricular hypertrophy",
+    "left ventricular hypertrophy with strain pattern",
+    "asymmetric septal hypertrophy",
+    "concentric left ventricular hypertrophy",
+    "eccentric left ventricular hypertrophy",
+    "lvh"
+  ],
+  "VCLVH": [
+    "voltage criteria qrs for left ventricular hypertrophy",
+    "voltage criteria for left ventricular hypertrophy",
+    "qrs complex changes for left ventricular hypertrophy",
+    "vclvh"
+  ],
+  "RVH": [
+    "right ventricle hypertrophy",
+    "right ventricular hypertrophy",
+    "cor pulmonale",
+    "idiopathic pulmonary hypertension-related right ventricular hypertrophy",
+    "chronic thromboembolic pulmonary hypertension-related right ventricular hypertrophy",
+    "rvh"
+  ],
+  "LAO/LAE": [
+    "left atrial overload",
+    "left atrial enlargement",
+    "left atrial hypertrophy",
+    "left atrial dilatation",
+    "lao lae"
+  ],
+  "RAO/RAE": [
+    "right atrial overload",
+    "right atrial enlargement",
+    "right atrial dilatation",
+    "rao rae"
+  ],
+  "LAE": [
+    "left atrial enlargement",
+    "lae"
+  ],
+  "RAE": [
+    "right atrial enlargement",
+    "rae"
+  ],
+  "RAH": [
+    "right atrial hypertrophy",
+    "right atrial enlargement",
+    "right atrial dilatation",
+    "rah"
+  ],
+  "SEHYP": [
+    "septal hypertrophy",
+    "left ventricular septal hypertrophy",
+    "right ventricular septal hypertrophy",
+    "apical septal hypertrophy",
+    "mid-septal hypertrophy",
+    "sehyp"
+  ],
+  "MI": [
+    "myocardial infarction",
+    "anterior myocardial infarction",
+    "anterolateral myocardial infarction",
+    "anteroseptal myocardial infarction",
+    "inferior myocardial infarction",
+    "inferolateral myocardial infarction",
+    "inferoposterolateral myocardial infarction",
+    "inferoposterior myocardial infarction",
+    "lateral myocardial infarction",
+    "posterior myocardial infarction",
+    "right ventricular myocardial infarction",
+    "subendocardial myocardial infarction"
+  ],
+  "AMI": [
+    "anterior myocardial infarction",
+    "anterolateral myocardial infarction",
+    "anteroseptal myocardial infarction",
+    "anterobasal myocardial infarction",
+    "ami"
+  ],
+  "ASMI": [
+    "anteroseptal myocardial infarction",
+    "anteroseptal wall infarction",
+    "anterolateral myocardial infarction",
+    "anterior wall infarction",
+    "subendocardial injury in anteroseptal leads",
+    "asmi"
+  ],
+  "MIFW": [
+    "myocardial infarction in the front wall",
+    "anteroseptal myocardial infarction",
+    "anterior myocardial infarction",
+    "anterolateral myocardial infarction",
+    "mifw"
+  ],
+  "INJAS": [
+    "ischemic in anteroseptal leads",
+    "anteroseptal ischemia",
+    "anterior septal ischemia",
+    "anterolateral ischemia",
+    "injas"
+  ],
+  "INJAL": [
+    "in anterolateral leads",
+    "anterolateral injury",
+    "anteroseptal injury",
+    "anterior wall myocardial infarction with lateral involvement",
+    "injal"
+  ],
+  "IMI": [
+    "inferior myocardial infarction",
+    "inferolateral myocardial infarction",
+    "inferoposterolateral myocardial infarction",
+    "inferoposterior myocardial infarction",
+    "subendocardial injury in inferior leads",
+    "posterior wall mi",
+    "posterior-inferior mi",
+    "posteroinferolateral mi",
+    "imi"
+  ],
+  "MILW": [
+    "myocardial infarction in the lower wall",
+    "inferior myocardial infarction",
+    "posterior myocardial infarction",
+    "lateral myocardial infarction",
+    "subendocardial injury in inferior and lateral leads",
+    "milw"
+  ],
+  "INJIN": [
+    "subendocardial injury in inferior leads",
+    "subendocardial injury in inferolateral leads",
+    "subendocardial injury in inferoposterolateral leads",
+    "subendocardial injury in inferoposterior leads",
+    "injin"
+  ],
+  "ILMI": [
+    "inferolateral myocardial infarction",
+    "inferoposterolateral myocardial infarction",
+    "inferoposterior myocardial infarction",
+    "subendocardial injury in inferolateral leads",
+    "ilmi"
+  ],
+  "ALMI": [
+    "anterolateral myocardial infarction",
+    "anteroseptal myocardial infarction",
+    "anterolateral subendocardial injury",
+    "anterolateral subepicardial injury",
+    "almi"
+  ],
+  "ISCLA": [
+    "in lateral leads",
+    "lateral leads",
+    "lateral wall myocardial infarction",
+    "inferolateral myocardial infarction",
+    "iscla"
+  ],
+  "INJLA": [
+    "subendocardial injury in lateral leads",
+    "subendocardial injury in anterolateral leads",
+    "subendocardial injury in posterolateral leads",
+    "injla"
+  ],
+  "MISW": [
+    "myocardial infarction in the side wall",
+    "lateral myocardial infarction",
+    "posterolateral myocardial infarction",
+    "anterolateral myocardial infarction",
+    "misw"
+  ],
+  "IPMI": [
+    "inferoposterior myocardial infarction",
+    "posterior myocardial infarction",
+    "inferoposterolateral myocardial infarction",
+    "subendocardial injury in inferior and lateral leads",
+    "ipmi"
+  ],
+  "PMI": [
+    "posterior myocardial infarction",
+    "posterior wall myocardial infarction",
+    "posterolateral myocardial infarction",
+    "posteroseptal myocardial infarction",
+    "subendocardial injury in posterior leads",
+    "pmi"
+  ],
+  "MIBW": [
+    "myocardial infarction in back wall",
+    "posterior myocardial infarction",
+    "posterior-inferior myocardial infarction",
+    "posterolateral myocardial infarction",
+    "subendocardial injury in posterior leads",
+    "mibw"
+  ],
+  "IPLMI": [
+    "inferoposterolateral myocardial infarction",
+    "inferoposterior myocardial infarction",
+    "inferolateral myocardial infarction",
+    "iplmi"
+  ],
+  "LMI": [
+    "lateral myocardial infarction",
+    "lmi"
+  ],
+  "NST": [
+    "non-specific st changes",
+    "non-specific st segment changes",
+    "non-specific st elevation",
+    "non-specific st depression",
+    "nst"
+  ],
+  "STE": [
+    "st elevation",
+    "st elevation - probable extension",
+    "st elevation myocardial infarction",
+    "st segment elevation in anterior leads",
+    "st segment elevation in lateral leads",
+    "st segment elevation in inferior leads",
+    "ste"
+  ],
+  "STD": [
+    "st depression",
+    "non-specific st depression",
+    "non-specific st segment depression",
+    "diffuse st depression",
+    "widespread st depression",
+    "std"
+  ],
+  "STDD": [
+    "st drop down",
+    "st segment depression",
+    "st segment elevation",
+    "stdd"
+  ],
+  "STTU": [
+    "st tilt up",
+    "st segment tilt up",
+    "st segment elevation in leads ii",
+    "st segment elevation in leads iii and avl",
+    "sttu"
+  ],
+  "NDT": [
+    "non-diagnostic t abnormalities",
+    "non-diagnostic t-waves",
+    "non-diagnostic t-wave changes",
+    "abnormal t-waves in leads i and avl",
+    "abnormal t-waves in leads ii iii and avf",
+    "ndt"
+  ],
+  "NT": [
+    "non-specific t-wave changes",
+    "non-specific t-waves",
+    "nonspecific st-t changes",
+    "abnormal t-waves",
+    "abnormal st segment and t waves"
+  ],
+  "TAB": [
+    "t-wave abnormality",
+    "t-wave changes",
+    "non-diagnostic t-waves",
+    "non-diagnostic t abnormalities",
+    "tab"
+  ],
+  "TWC": [
+    "t wave change",
+    "t-wave changes",
+    "non-diagnostic t-waves",
+    "abnormal t-waves",
+    "st-t wave changes",
+    "twc"
+  ],
+  "TWO": [
+    "t wave opposite",
+    "t wave inversion",
+    "t wave flattening",
+    "two"
+  ],
+  "INVT": [
+    "inverted t-waves",
+    "inverted t-wave changes",
+    "inverted t-wave pattern",
+    "inverted t-waves in leads v1-v3",
+    "inverted t-waves in leads ii iii and avl",
+    "invt"
+  ],
+  "LOWT": [
+    "low amplitude t-waves",
+    "low voltage t-waves",
+    "decreased amplitude t-waves",
+    "lowt"
+  ],
+  "ISC": [
+    "ischemic st-t",
+    "ischemic st-t changes",
+    "non-specific ischemic st-t changes",
+    "anterior ischemic st-t changes",
+    "inferior ischemic st-t changes",
+    "lateral ischemic st-t changes",
+    "posterior ischemic st-t changes",
+    "isc"
+  ],
+  "ISCA": [
+    "anterior ischemia",
+    "ischemic in anterior leads",
+    "ischemic in anteroseptal leads",
+    "ischemic in anterolateral leads",
+    "anteroseptal myocardial infarction",
+    "anterior myocardial infarction",
+    "isca"
+  ],
+  "ISCI": [
+    "inferior ischemia",
+    "ischemic in inferior leads",
+    "ischemic in inferolateral leads",
+    "inferoposterior myocardial infarction",
+    "subendocardial injury in inferior leads",
+    "isci"
+  ],
+  "ISCIN": [
+    "ischemic changes in inferior leads",
+    "infero-inferior ischemia",
+    "infero-lateral ischemia",
+    "subendocardial injury in inferior leads",
+    "iscin"
+  ],
+  "ISCAL": [
+    "in anterolateral leads",
+    "anterolateral st segment changes",
+    "anterolateral t-wave changes",
+    "anteroseptal myocardial infarction",
+    "iscal"
+  ],
+  "ISCAS": [
+    "in anteroseptal leads",
+    "anteroseptal st segment elevation",
+    "anteroseptal t-wave inversion",
+    "anterolateral st segment depression",
+    "iscas"
+  ],
+  "ISCIL": [
+    "ischemic in inferolateral leads",
+    "inferolateral ischemia",
+    "inferolateral st-segment depression",
+    "inferolateral t-wave inversion",
+    "iscil"
+  ],
+  "STTC": [
+    "st-t change",
+    "ischemic in anterior leads",
+    "ischemic in posterior leads",
+    "ischemic in inferior leads",
+    "ischemic in lateral leads",
+    "non-specifc st changes",
+    "sttc"
+  ],
+  "LOW_VOLT": [
+    "low qrs voltage",
+    "low voltage",
+    "low volt"
+  ],
+  "HIGH_VOLT": [
+    "high qrs voltage",
+    "high volt"
+  ],
+  "LVOLT": [
+    "low qrs voltages in the frontal and horizontal leads",
+    "low qrs voltage",
+    "low qrs amplitude",
+    "reduced qrs amplitude in frontal and horizontal leads",
+    "lvolt"
+  ],
+  "HVOLT": [
+    "high qrs voltage",
+    "high qrs amplitude",
+    "increased qrs amplitude",
+    "increased r wave amplitude",
+    "hvolt"
+  ],
+  "LVQRSAL": [
+    "lower voltage qrs in all leads",
+    "low voltage qrs complex in all leads",
+    "low amplitude qrs complex in all leads",
+    "lvqrsal"
+  ],
+  "LVQRSCL": [
+    "lower voltage qrs in chest lead",
+    "low voltage qrs complex",
+    "reduced amplitude of qrs complex in chest leads",
+    "lvqrscl"
+  ],
+  "LVQRSLL": [
+    "lower voltage qrs in limb lead",
+    "low-voltage qrs complex in limb leads",
+    "reduced amplitude of qrs complex in limb leads",
+    "lvqrsll"
+  ],
+  "ALS": [
+    "axis left shift",
+    "left axis deviation",
+    "leftward shift of the electrical axis",
+    "als"
+  ],
+  "ARS": [
+    "axis right shift",
+    "right axis deviation",
+    "rightward axis deviation",
+    "rightward displacement of the mean electrical axis",
+    "ars"
+  ],
+  "CCR": [
+    "counter-clockwise rotation",
+    "counterclockwise axis deviation",
+    "left axis deviation",
+    "ccr"
+  ],
+  "CR": [
+    "clockwise rotation",
+    "counterclockwise rotation"
+  ],
+  "ABQRS": [
+    "abnormal qrs",
+    "abnormal qrs axis",
+    "abnormal qrs complex",
+    "abnormal qrs duration",
+    "abnormal qrs morphology",
+    "abnormal qrs transition zone",
+    "abqrs"
+  ],
+  "AQW": [
+    "abnormal q wave",
+    "anterior q wave",
+    "posterior q wave",
+    "lateral q wave",
+    "septal q wave",
+    "aqw"
+  ],
+  "FQRS": [
+    "fqrs wave",
+    "fragmented qrs complex",
+    "fragmented qrs waveforms",
+    "abnormal qrs morphology",
+    "fqrs"
+  ],
+  "EL": [
+    "compatible with electrolyte abnormalities",
+    "electrolyte imbalance",
+    "electrolyte disturbances",
+    "hypokalemia",
+    "hyperkalemia",
+    "hypocalcemia",
+    "hypercalcemia"
+  ],
+  "UW": [
+    "u wave",
+    "u-waves",
+    "abnormal u waves",
+    "prominent u waves"
+  ],
+  "DIG": [
+    "dig",
+    "suggests digitalis-effect",
+    "digitalis-induced changes",
+    "digitalis-like effect",
+    "digitalis-related changes"
+  ],
+  "LNGQT": [
+    "long qt-interval",
+    "prolonged qt interval",
+    "congenital long qt syndrome",
+    "acquired long qt syndrome",
+    "romano-ward syndrome",
+    "jervell and lange-nielsen syndrome",
+    "lngqt"
+  ],
+  "QTIE": [
+    "qt interval extension",
+    "prolonged qt interval",
+    "prolonged corrected qt interval",
+    "torsade de pointes",
+    "long qt syndrome",
+    "qtie"
+  ],
+  "ANEUR": [
+    "st-t changes compatible with ventricular aneurysm",
+    "ventricular aneurysm",
+    "left ventricular aneurysm",
+    "right ventricular aneurysm",
+    "aneur"
+  ],
+  "ERV": [
+    "early repolarization of the ventricles",
+    "early repolarization",
+    "ventricular early repolarization",
+    "ventricular premature beats with early repolarization",
+    "erv"
+  ],
+  "VPC": [
+    "ventricular premature complexes",
+    "ventricular premature beats",
+    "ventricular ectopic beats",
+    "premature ventricular contractions",
+    "vpc"
+  ],
+  "PVC": [
+    "premature ventricular",
+    "ventricular ectopic",
+    "ventricular premature complex beat",
+    "ventricular premature contraction",
+    "ventricular ectopic beat",
+    "ventricular extrasystole",
+    "pvc"
+  ],
+  "VEB": [
+    "ventricular escape beat",
+    "ventricular premature beat",
+    "ventricular ectopic beat",
+    "veb"
+  ],
+  "VPB": [
+    "ventricular premature beat",
+    "ventricular premature complexes",
+    "ventricular ectopic beats",
+    "ventricular extrasystoles",
+    "vpb"
+  ],
+  "PAC": [
+    "premature atrial",
+    "atrial ectopic",
+    "atrial premature complex",
+    "atrial premature beat",
+    "atrial ectopic beat",
+    "supraventricular premature complex",
+    "pac"
+  ],
+  "APB": [
+    "atrial premature beats",
+    "atrial premature complexes",
+    "atrial ectopic beats",
+    "supraventricular ectopic beats",
+    "apb"
+  ],
+  "JEB": [
+    "junctional escape beat",
+    "junctional escape rhythm",
+    "junctional premature beat",
+    "junctional premature complexes",
+    "jeb"
+  ],
+  "JPT": [
+    "junctional premature beat",
+    "junctional premature complexes",
+    "atrioventricular junctional rhythm",
+    "supraventricular junctional rhythm",
+    "jpt"
+  ],
+  "BIGU": [
+    "bigeminal pattern unknown origin",
+    "bigeminal supraventricular rhythm",
+    "bigeminal ventricular rhythm",
+    "supraventricular bigeminus",
+    "ventricular bigeminus",
+    "bigu"
+  ],
+  "TRIGU": [
+    "trigeminal pattern unknown origin",
+    "trigeminal pattern of unknown origin with supraventricular origin",
+    "trigeminal pattern of unknown origin with ventricular origin",
+    "trigu"
+  ],
+  "ABI": [
+    "atrial bigeminy",
+    "atrial extrasystole",
+    "supraventricular bigeminy",
+    "abi"
+  ],
+  "VB": [
+    "ventricular bigeminy",
+    "ventricular extrasystoles",
+    "premature ventricular contractions"
+  ],
+  "VET": [
+    "ventricular escape trigeminy",
+    "ventricular escape beats",
+    "ventricular premature beats with a cycle length of 2 1",
+    "vet"
+  ],
+  "WPW": [
+    "wolf-parkinson-white syndrome",
+    "wolff-parkinson-white pattern",
+    "pre-excitation syndrome",
+    "wpw"
+  ],
+  "VPE": [
+    "ventricular preexcitation",
+    "wolff-parkinson-white syndrome",
+    "accessory pathway conduction",
+    "kent bundle",
+    "vpe"
+  ],
+  "PRC(S)": [
+    "premature complex es",
+    "premature ventricular contraction s",
+    "premature atrial contraction s",
+    "premature junctional complex es",
+    "prc s"
+  ],
+  "VFW": [
+    "ventricular fusion wave",
+    "ventricular fusion beats",
+    "ventricular fusion complexes",
+    "vfw"
+  ],
+  "PACE": [
+    "pacemaker",
+    "normal functioning artificial pacemaker",
+    "normal functioning permanent artificial cardiac pacemaker",
+    "normal functioning temporary artificial cardiac pacemaker",
+    "pace"
+  ]
+}
